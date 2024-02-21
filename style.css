@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "General Sans";
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.nav{
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 40px;
+    padding-right: 30px;
+    margin-top: 20px;
+    
+}
+
+.heading{
+    
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.heading h1{
+    font-size: 10em;
+    text-transform: uppercase;
+    line-height: 0.9;
+    opacity: 0.65;
+}
+.heading :nth-child(2){
+    margin-left: 120px;
+}
+.heading h5{
+    text-transform: uppercase;
+}
+.block{
+    width: fit-content;
+}
+.block h5{
+    text-align: right;
+    font-size: 14px;
+}
+.smallheading{
+    text-align: right;
+    font-size: 1.2vw;
+    margin-top: 160px;
+    margin-right: 40px;
+}
+.iconcontainer{
+    margin-right: 40px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.iconcontainer a{
+    color: white;
+    text-decoration: none;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 24px;
+    background-color: white;
+    opacity: 0.65;
+    border-radius: 50%;
+    color: black;
+}
+.arrowcircle{
+    display: flex;
+    gap: 5px;
+}
+
+.boxyheading h1{
+    margin-top: 40px;
+}
+.boxy1{
+    margin-right: 40px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 54px;
+    border-top: 1px solid #8888;
+    
+}
+.boxy1 h1{
+   
+    font-size: 6em;
+    opacity: 0.65;
+}
+.lastboxy{
+    border-bottom: 1px solid #8888;
+}
+.boxyheading img{
+    position: absolute;
+    height: 100%;
+    display: none;
+}
+.boxyheading{
+    margin-top: 140px;
+    position: relative;
+    z-index: 69;
+}
+.aboutmain{
+    margin-top: 200px;
+    margin-left: 600px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgabout img{
+    width: 250px;
+}
+.textabout {
+    font-size: large;
+}
+.aboutme{
+    font-size: larger;
+    opacity: 0.65;
+}
+button{
+    width: 7vw;
+    height: 4vh;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+}
+.subscribe{
+    margin-left: 40px;
+    margin-top: 100px;
+}
+.subscribe :first-child{
+    opacity: 0.65;
+
+}
+.footer{
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.lbox{
+    display: flex;
+    gap: 15px;
+    
+
+}
+.rbox{
+    display: flex;
+    gap: 15px;
+    
+}
+.rbox a{
+    color: white;
+    text-decoration: none;
+}
+.theUltimatemain{
+    position: relative;
+}
+.minicircle{
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 1s;
+    height: 10px;
+    width: 10px;
+    background-color: wheat;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 9999999;
+}
+.bounding{
+    overflow: hidden;
+    width: fit-content;
+}
+.bounding h1{
+    transform: ;
+}
